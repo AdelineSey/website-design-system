@@ -1,0 +1,27 @@
+/* Base Styles */
+
+html {
+    background-color: black;
+}
+
+body {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+
+header {
+    color: white;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+/* Main */
+
+.color {
+    display: grid;
+    
+    
+}
