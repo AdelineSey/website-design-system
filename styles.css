@@ -1,7 +1,7 @@
 /* Base Styles */
 
 html {
-    background-color: white;
+    background-color: #f7ede2;
 }
 
 body {
@@ -17,11 +17,19 @@ body {
 header {
     color: black;
     margin-left: 20px;
+    margin-top: 25px;
     text-decoration: underline;
+    align-items: center;
+    height: 75px;
+    width: 425px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
     display: flex;
-    align-items: flex-start;
-    height: auto;
-    width: auto;
+}
+
+header h1 {
+    margin: auto;
 }
 
 /* Main */
@@ -34,25 +42,31 @@ main {
     grid-template-rows: 3fr;
     gap: 10px;
     border: 2px solid black;
+    border-radius: 20px;
     margin: 20px;
+    background-color: white;
 }
 
 /* Colors */
 
 .color {
+    grid-row: 1;
     margin: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto repeat(5, 1fr);
     align-content: center;
     justify-content: center;
     gap: 15px;
+    border: 2px dashed black;
+    border-radius: 20px;
 }
 
 .color h1 {
     justify-self: left;
     margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .color div {
@@ -74,6 +88,7 @@ main {
     grid-row: 1;
     grid-column: 1;
     font-size: 48px;
+    margin-left: 10px;
 }
 
 .p2 {
@@ -100,4 +115,18 @@ main {
 
 #light-coral {
     background-color: #F28482;
+}
+
+/* Fonts */
+
+.font {
+    grid-row: 2;
+    border: 2px dashed black;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.font h1 {
+    justify-self: left;
+    margin-left: 20px;
 }
