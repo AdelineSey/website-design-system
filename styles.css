@@ -130,3 +130,19 @@ main {
     justify-self: left;
     margin-left: 20px;
 }
+
+#open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+#roboto-mono {
+    font-family: "Roboto Mono", monospace;
+}
+
+#merriweather {
+    font-family: "Merriweather", serif;
+}
+
+#quixcksand {
+    font-family: "Quicksand", sans-serif;
+}
