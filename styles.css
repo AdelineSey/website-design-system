@@ -1,21 +1,21 @@
 /* Base Styles */
 
 html {
-    background-color: black;
+    background-color: white;
 }
 
 body {
     font-family: "IBM Plex Serif", serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 /* Header */
 
 header {
-    color: white;
+    color: black;
     margin-left: 20px;
     text-decoration: underline;
     display: flex;
@@ -33,7 +33,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
     gap: 10px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 20px;
 }
 
@@ -64,6 +64,7 @@ main {
     justify-content: center;
     justify-items: left;
     padding-left: 20px;
+    color: white;
     text-shadow: 2px 2px 5px black;
     margin-left: 20px;
     margin-right: 20px;
